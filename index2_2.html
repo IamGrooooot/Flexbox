@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        .color1 {background-color: #675BA7;}
+        .color2 {background-color: #9BC850;}
+        .color3 {background-color: #A62E5C;}
+
+        .flex-container{
+            display: flex;
+            border: 2px solid #ccc;
+        }
+        .column{
+            flex-direction: column;
+        }
+        .column-reverse{
+            flex-direction: column-reverse;
+        }
+        .flex-item{
+            text-align: center;
+            padding: 1.2em;
+            font-size: 1em;
+            color: white
+        }
+    </style>
+</head>
+<body>
+    <h3>Column</h3>
+    <div class="flex-container column">
+        <div class="flex-item color1">Flex item 1</div>
+        <div class="flex-item color2">Flex item 2</div>
+        <div class="flex-item color3">Flex item 3</div>
+    </div>
+
+    <h3>Column-reverse</h3>
+    <div class="flex-container column-reverse">
+        <div class="flex-item color1">Flex item 1</div>
+        <div class="flex-item color2">Flex item 2</div>
+        <div class="flex-item color3">Flex item 3</div>
+    </div>
+</body>
+</html>
