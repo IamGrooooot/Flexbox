@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        html, body{
+            padding: 0;
+            margin: 0;
+            font-family: Verdana, Arial, sans-serif;
+        }
+        body{
+            display: flex;
+            padding: 1em;
+            flex-direction: column;
+        }
+        .item{
+            background-color: #455a64;
+            color: #fff;
+            font-size: 1.1em;
+            padding: 1em;
+        }
+        .item:nth-child(even){
+            background-color: #607d8b;
+        }
+        @media screen and (min-width: 600px) {
+     
+            body {
+                flex-direction: row;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="item">
+        <h2>Что такое Lorem</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab voluptatem dignissimos perspiciatis sit quam veniam inventore necessitatibus amet neque adipisci.</p>
+    </div>
+    <div class="item">
+        <h2>Откуда он появился?</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab voluptatem dignissimos perspiciatis sit quam veniam inventore necessitatibus amet neque adipisci.</p>
+    </div>
+</body>
+</html>
